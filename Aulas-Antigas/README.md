@@ -1,6 +1,18 @@
 # Aulas Antigas
 
-Pasta com os repositórios do antigo material de aula 
+Pasta com os repositórios do antigo material de aula
+
+O repositório contém os seguintes modulos de conteudo:
+[Modulo 1 - Introducao a Computacao](#modulo-1)
+[Modulo 2](#modulo-2)
+[Modulo 3](#modulo-3)
+[Modulo 4](#modulo-4)
+[Modulo 5](#modulo-5)
+[Modulo 6](#modulo-6)
+
+## Modulo 1
+Aulas 0-16
+
 
 ### [Aula-0](aula-0)
 Introdução ao nosso curso de Desenvolvimento Fullstack
@@ -36,6 +48,18 @@ Módulo 1 - Aula 14 - Entendendo objetos
 Módulo 1 - Aula 15 - Funções assíncronas e importação de módulos
 ### [Aula-16](aula-16)
 Módulo 1 - Aula 16 - Entendendo a DOM
+## Modulo 2
+Aulas 17-28
+## Modulo 3
+Aulas 29-40
+## Modulo 4
+Aulas ?
+## Modulo 5
+Aulas 54-62
+## Modulo 6
+Aulas 63+
+
+
 ### [Aula-17](aula-17)
 Módulo 2 - Aula 1 - Fundamentos do HTML na Web
 ### [Aula-18](aula-18)
@@ -122,7 +146,7 @@ Módulo 5 - Aula 5 - Componentes em React
 Módulo 5 - Aula 6 - Estilos em React com Tailwind e Introdução a Eventos
 ### [Aula-60](aula-60)
 Módulo 5 - Aula 7 - Introdução aos React Hooks
-### [Aula-60](aula-60-1)
+### [Aula-60-1](aula-60-1)
 Errado
 ### [Aula-61](aula-61)
 Módulo 5 - Aula 8 - Dados Dinâmicos
@@ -140,4 +164,3 @@ Módulo 6 - Aula 4 - React Hook Form e Implementação de Formulários
 Módulo 6 - Aula 5 - Ant Design
 ### [Aula-68](aula-68)
 Módulo 6 - Aula 6 - React Router
-### [Aula-69](aula-69)
