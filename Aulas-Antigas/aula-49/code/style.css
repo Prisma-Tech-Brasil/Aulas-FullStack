@@ -1,0 +1,72 @@
+/* Variáveis globais */
+:root {
+  --primary-color: #4caf50;
+  --secondary-color: #ffffff;
+  --font-family: 'Arial, sans-serif';
+  --spacing: 1rem;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  background-color: #f4f4f4;
+  color: #333;
+
+  /* Aninhamento */
+  .main-header {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: var(--spacing);
+
+    h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    .navigation {
+      margin-top: var(--spacing);
+      display: flex;
+      gap: var(--spacing);
+
+      a {
+        text-decoration: none;
+        color: var(--secondary-color);
+        font-weight: bold;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  main {
+    padding: var(--spacing);
+
+    .hero {
+      background-color: #fff;
+      padding: calc(var(--spacing) * 2);
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+
+      p {
+        margin-bottom: var(--spacing);
+      }
+
+      .cta-button {
+        background-color: var(--primary-color);
+        color: var(--secondary-color);
+        border: none;
+        padding: var(--spacing);
+        font-size: 1rem;
+        cursor: pointer;
+        border-radius: 4px;
+
+        &:hover {
+          background-color: darken(var(--primary-color), 10%);
+        }
+      }
+    }
+  }
+}

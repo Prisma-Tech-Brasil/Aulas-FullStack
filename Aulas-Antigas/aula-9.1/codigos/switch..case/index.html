@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selecione o Dia da Semana</title>
+  </head>
+  <body>
+    <label for="weekday">Selecione o dia da semana: </label>
+    <select id="weekday">
+      <option value="">--Faça uma escolha--</option>
+      <option value="monday">Segunda-feira</option>
+      <option value="tuesday">Terça-feira</option>
+      <option value="wednesday">Quarta-feira</option>
+      <option value="thursday">Quinta-feira</option>
+      <option value="friday">Sexta-feira</option>
+      <option value="saturday">Sábado</option>
+      <option value="sunday">Domingo</option>
+    </select>
+
+    <p></p>
+
+    <script>
+      var select = document.querySelector("select");
+      var para = document.querySelector("p");
+
+      select.addEventListener("change", setWeekday);
+
+      function setWeekday() {
+        var choice = select.value;
+
+        switch (choice) {
+          case "monday":
+            para.textContent =
+              "Hoje é Segunda-feira! Uma nova semana está começando.";
+            break;
+          case "tuesday":
+            para.textContent =
+              "Hoje é Terça-feira! Continue firme, o final de semana está chegando.";
+            break;
+          case "wednesday":
+            para.textContent =
+              "Hoje é Quarta-feira! Estamos no meio da semana.";
+            break;
+          case "thursday":
+            para.textContent =
+              "Hoje é Quinta-feira! Só mais um dia para o final de semana.";
+            break;
+          case "friday":
+            para.textContent =
+              "Hoje é Sexta-feira! O final de semana está aqui.";
+            break;
+          case "saturday":
+            para.textContent = "Hoje é Sábado! Aproveite seu dia de folga.";
+            break;
+          case "sunday":
+            para.textContent =
+              "Hoje é Domingo! Um dia para relaxar antes da nova semana.";
+            break;
+          default:
+            para.textContent = "";
+        }
+      }
+    </script>
+  </body>
+</html>

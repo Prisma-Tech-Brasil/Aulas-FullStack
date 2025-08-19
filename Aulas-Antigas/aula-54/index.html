@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #mensagem { display: none; }
+    </style>
+  </head>
+  <body>
+    <button id="botao">Clique aqui</button>
+    <div id="mensagem">Olá JavaScript</div>
+
+    <script>
+      document.getElementById("botao").addEventListener("click", function () {
+        const mensagem = document.getElementById("mensagem");
+        mensagem.style.display = "block";
+      });
+    </script>
+  </body>
+</html>

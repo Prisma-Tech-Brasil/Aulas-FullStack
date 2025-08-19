@@ -1,0 +1,24 @@
+🟢 Atividade 1 – Listar nomes
+Objetivo: Criar um array com 3 nomes e exibir cada um no console.
+
+Desafio: Adicione um quarto nome ao array e exiba todos novamente.
+
+🟢 Atividade 2 – Contar elementos
+Objetivo: Criar um array com 4 números e imprimir no console quantos elementos ele tem.
+
+Desafio: Remova o último número usando .pop() e exiba o novo tamanho.
+
+🟢 Atividade 3 – Somar valores
+Objetivo: Criar um array com 3 números e exibir a soma dos valores.
+
+Desafio: Substitua o segundo número e refaça a soma.
+
+🟢 Atividade 4 – Procurar item
+Objetivo: Criar um array com 5 frutas e mostrar se a fruta “banana” está presente.
+
+Desafio: Se “banana” estiver, exiba sua posição no array.
+
+🔵 Atividade 5 – Imprimir elementos de uma matriz
+Objetivo: Criar uma matriz 2x2 com números e imprimir todos os valores usando dois for.
+
+Desafio: Modifique a matriz para 3x2 e imprima novamente.

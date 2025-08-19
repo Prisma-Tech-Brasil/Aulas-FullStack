@@ -1,0 +1,41 @@
+📝 Atividade 1 – Criando um objeto simples
+Objetivo: Criar um objeto que representa uma pessoa.
+Enunciado:
+Crie um objeto chamado pessoa com as seguintes propriedades:
+  nome (string)
+  idade (número)
+  profissao (string)
+Desafio: Exiba as informações da pessoa no console, no seguinte formato:
+  "João tem 25 anos e é desenvolvedor."
+
+📝 Atividade 2 – Acessando propriedades
+Objetivo: Acessar e imprimir propriedades de um objeto.
+Enunciado:
+Dado o objeto abaixo:
+  const carro = {
+    marca: "Toyota",
+    modelo: "Corolla",
+    ano: 2020
+  };
+Mostre no console a marca e o ano do carro.
+Desafio: Adicione uma nova propriedade chamada cor e atribua o valor "prata".
+
+📝 Atividade 3 – Alterando propriedades
+Objetivo: Modificar valores dentro de um objeto.
+Enunciado:
+Crie um objeto chamado filme com propriedades: titulo, ano e diretor.
+Depois, altere o valor do titulo para outro nome.
+Desafio: Adicione uma propriedade chamada assistido com valor false.
+
+📝 Atividade 4 – Objetos dentro de arrays
+Objetivo: Trabalhar com arrays de objetos.
+Enunciado:
+Crie um array chamado alunos com 3 objetos. Cada objeto deve representar um aluno com nome e nota.
+Desafio: Mostre o nome e nota do segundo aluno.
+
+📝 Atividade 5 – Função que usa objeto como parâmetro
+Objetivo: Usar objetos como argumentos de função.
+Enunciado:
+Crie uma função chamada apresentarPessoa que recebe um objeto com nome e idade, e retorna a frase:
+  "Olá, meu nome é Ana e tenho 30 anos."
+Desafio: Teste a função com pelo menos dois objetos diferentes.

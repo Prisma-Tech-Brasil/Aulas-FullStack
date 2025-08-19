@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>else...if</title>
+  </head>
+  <body>
+    <label for="weather">Selecione o tipo de clima hoje: </label>
+    <select id="weather">
+      <option value="">--Faça uma escolha--</option>
+      <option value="sunny">Ensolarado</option>
+      <option value="rainy">Chuvoso</option>
+      <option value="snowing">Nevando</option>
+      <option value="overcast">Nublado</option>
+    </select>
+    <p></p>
+
+    <script>
+      var select = document.querySelector("select");
+      var para = document.querySelector("p");
+
+      select.addEventListener("change", setWeather);
+
+      function setWeather() {
+        var choice = select.value;
+
+        if (choice === "sunny") {
+          para.textContent =
+            "Está agradável e ensolarado lá fora hoje. Use shorts! Vá à praia ou ao parque e tome um sorvete.";
+        } else if (choice === "rainy") {
+          para.textContent =
+            "Está chovendo lá fora; leve uma capa de chuva e um guarda-chuva, e não fique fora por muito tempo.";
+        } else if (choice === "snowing") {
+          para.textContent =
+            "Está nevando — está congelante! Melhor ficar em casa com uma xícara de chocolate quente ou ir construir um boneco de neve.";
+        } else if (choice === "overcast") {
+          para.textContent =
+            "Não está chovendo, mas o céu está cinzento e sombrio; pode mudar a qualquer momento, então leve uma capa de chuva por precaução.";
+        } else {
+          para.textContent = "";
+        }
+      }
+    </script>
+  </body>
+</html>

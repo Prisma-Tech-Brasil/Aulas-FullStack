@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Animações CSS - Exemplo</title>
+</head>
+<body>
+  <div class="loader"></div>
+
+  <main class="content">
+    <h1>Bem-vindo ao Exemplo de Animações CSS</h1>
+    <p>Experimente passar o mouse sobre os botões abaixo:</p>
+
+    <button class="btn">Botão 1</button>
+    <button class="btn">Botão 2</button>
+    <button class="btn">Botão 3</button>
+  </main>
+
+  <script>
+    // Esconde o loader após 1 segundo e exibe o conteúdo
+    window.addEventListener('load', () => {
+      setTimeout(() => {
+        document.querySelector('.loader').style.display = 'none';
+        document.querySelector('.content').style.display = 'block';
+      }, 2000);
+    });
+  </script>
+</body>
+</html>

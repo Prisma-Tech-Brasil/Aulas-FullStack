@@ -1,0 +1,38 @@
+✅ Questão 1 – Trabalhando com Callback
+Enunciado:
+Crie uma função chamada processarNumero que receba dois parâmetros:
+- Um número qualquer
+- Uma função callback que será executada com o dobro desse número
+
+
+✅ Questão 2 – Criando uma Promise Simples
+Enunciado:
+Crie uma função chamada verificarNumeroPar que receba um número e retorne uma Promise.
+- Se o número for par, a Promise deve ser resolvida com a mensagem: "O número é par"
+- Se for ímpar, deve ser rejeitada com a mensagem: "O número é ímpar"
+-- Dica: Use resolve e reject.
+
+
+✅ Questão 3 – Async/Await com Simulação de Tempo
+Enunciado:
+Crie uma função assíncrona chamada esperarMensagem que use setTimeout para simular uma espera de 2 segundos e, depois disso, retorne a mensagem "Operação concluída com sucesso".
+--Dica: Use async, await e Promise.
+
+
+✅ Questão 4 – Tratamento de Erros com Try/Catch
+Enunciado:
+Crie uma função assíncrona chamada divisaoSegura que:
+- Receba dois números
+- Retorne a divisão entre eles
+- Use try/catch para tratar o caso de uma divisão por zero, retornando uma mensagem de erro apropriada.
+-- Exemplo:
+Se o divisor for zero, a função deve retornar: "Erro: divisão por zero".
+
+✅ Questão 5 – Fetch API (Requisição HTTP)
+Enunciado:
+Utilizando a Fetch API, faça uma requisição GET para o seguinte endereço fictício:
+https://hp-api.onrender.com/api/characters/house/gryffindor
+- Use fetch dentro de uma função assíncrona chamada buscarPersonagensGrifinoria
+- Trate a resposta com .json()
+- Faça um try/catch para capturar erros de conexão
+-- Dica: Simule um console.log com a resposta.

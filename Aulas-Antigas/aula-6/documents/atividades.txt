@@ -1,0 +1,76 @@
+
+ATIVIDADES DE CSS – ESTILIZANDO AS PÁGINAS DA AULA ANTERIOR
+============================================================
+
+Estas atividades devem ser realizadas nos arquivos HTML criados na aula anterior.
+Vamos aprender a aplicar estilos com CSS nas suas páginas usando a tag <style> no <head>.
+
+------------------------------------------------------------
+
+✅ Atividade 1: Estilizando sua Biografia
+
+Objetivo:
+Aplicar estilos básicos à página biografia.html.
+
+Instruções:
+1. Adicione uma <style> no <head> do arquivo.
+2. Altere a cor de fundo da página para um tom claro (#f0f0f0).
+3. Mude a cor do texto do <h1> para azul.
+4. Centralize o texto do título <h1> usando text-align: center.
+5. Aumente o tamanho da fonte dos parágrafos para 18px.
+
+------------------------------------------------------------
+
+✅ Atividade 2: Estilo para a Página de Contato
+
+Objetivo:
+Usar cores, espaçamento e alinhamento.
+
+Instruções:
+1. No arquivo contato.html, crie uma tag <style> no <head>.
+2. Altere a fonte da página para Arial.
+3. Aumente a cor do link para verde.
+4. Use margin-top: 20px nos parágrafos para separar os dados.
+5. Coloque o texto do corpo da página no centro usando text-align: center.
+
+------------------------------------------------------------
+
+✅ Atividade 3: Deixando a Citação Bonita
+
+Objetivo:
+Estilizar um bloco de citação com bordas e estilos de texto.
+
+Instruções:
+1. No arquivo da citação, crie estilos no <style>.
+2. Adicione font-style: italic ao bloco de citação.
+3. Adicione uma borda à esquerda do blockquote: border-left: 3px solid gray;
+4. Adicione padding: 10px e background-color: #f9f9f9 ao bloco.
+5. Use max-width: 600px e margin: auto para centralizar o texto.
+
+------------------------------------------------------------
+
+✅ Atividade 4: Destacando as Sessões
+
+Objetivo:
+Aprender a usar espaçamentos, cor e separadores.
+
+Instruções:
+1. No arquivo sessoes.html, adicione CSS no <head>.
+2. Coloque uma cor diferente para os dois títulos <h2> (ex: vermelho e verde).
+3. Dê padding: 15px aos parágrafos.
+4. Mude a cor da linha <hr> usando border-color: lightgray;
+5. Use font-family: sans-serif para o corpo da página.
+
+------------------------------------------------------------
+
+✅ Atividade 5: Lista com estilo!
+
+Objetivo:
+Estilizar listas e elementos de texto.
+
+Instruções:
+1. No arquivo da lista de comidas:
+2. Altere a cor do título da página para laranja.
+3. Dê background-color: #fffbe6 à lista inteira.
+4. Coloque padding: 10px e border-radius: 10px na <ul> ou <ol>.
+5. Use list-style-type: square; para mudar os marcadores.

@@ -1,0 +1,222 @@
+:root {
+  --cor-fundo-claro: #bfb2a3;
+  --cor-secundaria-claro: #262515;
+  --principal-claro: #8c673a;
+  --cor-fundo-escuro: #262515;
+  --cor-secundaria-escuro: #bfb2a3;
+  --principal-escuro: #a66a96;
+}
+
+body {
+  background-color: var(--cor-fundo-claro);
+  color: var(--cor-secundaria-claro);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s ease, color 0.3s ease;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--principal-claro);
+  color: var(--cor-fundo-claro);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links {
+  margin-right: 1rem;
+  list-style: none;
+  display: flex;
+  gap: 15px;
+
+  a {
+    color: var(--cor-fundo-claro);
+    text-decoration: none;
+    font-weight: bold;
+  }
+}
+
+nav button {
+  background: none;
+  border: none;
+  cursor: pointer;
+
+  img {
+    width: 24px;
+  }
+}
+
+/* Estilo do botão de menu (hambúrguer) */
+#nav-toggle {
+  display: none; /* Será mostrado no mobile */
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--cor-fundo-claro);
+}
+
+/* Tornar o menu de navegação responsivo */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none; /* Esconde no mobile */
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: var(--principal-claro);
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 100; /* Garante que fique sobreposto */
+  }
+
+  .nav-links-active {
+    display: flex; /* Mostra no mobile quando ativo */
+  }
+
+  #nav-toggle {
+    display: block; /* Exibe o botão hambúrguer */
+  }
+}
+
+main {
+  margin: 1.2rem;
+  max-width: 600px;
+  width: 100%;
+  border: none;
+  background: none;
+
+  h2 {
+    text-align: center;
+    color: var(--principal-claro);
+  }
+
+  button {
+    padding: 10px 20px;
+    border: none;
+    background-color: var(--cor-fundo-claro);
+    color: var(cor-secundaria-claro);
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+    &:hover {
+      background-color: var(--cor-secundaria-claro);
+      color: var(--cor-fundo-claro);
+    }
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 400px;
+    background-color: var(--cor-fundo-escuro);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    button {
+      background-color: var(--principal-claro);
+      color: var(--cor-fundo-claro);
+      font-size: 16px;
+
+      &:hover {
+        background-color: var(--cor-fundo-claro);
+        color: var(--cor-secundaria-claro);
+      }
+    }
+
+    label {
+      margin-bottom: 5px;
+      font-weight: bold;
+      color: var(--cor-secundaria-escuro);
+    }
+
+    input {
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid var(--principal-claro);
+      border-radius: 5px;
+      background-color: var(--cor-fundo-claro);
+      color: var(--cor-secundaria-claro);
+
+      &:focus {
+        outline: none;
+        border-color: var(--principal-escuro);
+      }
+    }
+  }
+
+  p a {
+    color: var(--cor-secundaria-claro);
+    text-decoration: none;
+    font-weight: 700;
+  }
+}
+
+footer {
+  background-color: var(--principal-claro);
+  color: var(--cor-fundo-claro);
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Tema escuro */
+body.dark-theme {
+  background-color: var(--cor-fundo-escuro);
+  color: var(--cor-secundaria-escuro);
+
+  header {
+    background-color: var(--principal-escuro);
+    color: var(--cor-secundaria-escuro);
+  }
+
+  form {
+    background-color: var(--cor-secundaria-escuro);
+    color: var(--cor-fundo-escuro);
+
+    label {
+      color: var(--cor-fundo-escuro);
+    }
+
+    button {
+      background-color: var(--principal-escuro);
+      color: var(--cor-fundo-escuro);
+      font-size: 16px;
+
+      &:hover {
+        background-color: var(--cor-fundo-escuro);
+        color: var(--cor-secundaria-escuro);
+      }
+    }
+  }
+
+  h2 {
+    color: var(--principal-escuro);
+  }
+
+  p a {
+    color: var(--cor-secundaria-escuro);
+  }
+
+  footer {
+    background-color: var(--principal-escuro);
+    color: var(--cor-fundo-escuro);
+  }
+}

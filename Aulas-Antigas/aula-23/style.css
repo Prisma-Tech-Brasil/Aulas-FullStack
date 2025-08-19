@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input:focus {
+  outline: none;
+}
+
+fieldset {
+  border: none;
+}
+
+.nome-container {
+  display: flex;
+}
+
+input:not([type="radio"], [type="checkbox"]),
+fieldset {
+  width: 100%;
+}
+
+.mensagem-container {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,33 @@
+🧠 Exercícios sobre Condicionais
+Exercício 1 — Verificação de idade
+Crie um programa que armazene a idade de uma pessoa em uma variável.
+  Se for maior ou igual a 18, exiba:
+    "Você é maior de idade."
+  Senão, exiba:
+    "Você é menor de idade."
+
+
+Exercício 2 — Número positivo, negativo ou zero
+Crie uma variável com um número e utilize condicionais para exibir:
+  "Número positivo", se for maior que zero
+  "Número negativo", se for menor que zero
+  "Número igual a zero", se for igual a zero
+
+
+Exercício 3 — Verificação de par ou ímpar
+Crie uma variável com um número.
+Use o operador % para verificar se ele é par ou ímpar e exiba a mensagem correspondente.
+
+
+Exercício 4 — Nota de aluno
+Crie uma variável com a nota de um aluno (de 0 a 10).
+Utilize condicionais para exibir:
+  "Aprovado" se a nota for maior ou igual a 6
+  "Recuperação" se a nota for maior ou igual a 4 e menor que 6
+  "Reprovado" se a nota for menor que 4
+
+
+Exercício 5 — Comparando dois números
+Crie duas variáveis com números diferentes.
+Exiba qual deles é o maior. Se forem iguais, exiba:
+  "Os números são iguais."

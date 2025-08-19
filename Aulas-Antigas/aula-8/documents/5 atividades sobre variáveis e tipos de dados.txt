@@ -1,0 +1,17 @@
+✏️ Atividade 1 – Declarando uma variável com let
+Crie uma variável chamada nome e atribua a ela seu nome.
+
+✏️ Atividade 2 – Usando const para dados fixos
+Declare uma constante chamada pais com o nome do país em que você nasceu. 
+
+✏️ Atividade 3 – Atualizando valores com let
+Crie uma variável chamada idade com sua idade atual. Depois, reatribua um novo valor simulando sua idade no próximo ano. 
+
+✏️ Atividade 4 – const não pode mudar
+Crie uma constante chamada cpf com um número qualquer de CPF (fictício). Depois tente alterar esse valor e veja o erro que acontece.
+
+✏️ Atividade 5 – Diferentes tipos de dados
+Crie 3 variáveis usando let com os seguintes dados:
+Um número qualquer,
+Um texto com sua cor favorita,
+Um valor booleano (verdadeiro ou falso)

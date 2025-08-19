@@ -1,0 +1,26 @@
+5 atividades sobre laços de repetição:
+
+Atividade 1 – Repetir uma mensagem
+Objetivo: Criar uma função que repete uma frase um número fixo de vezes.
+
+Desafio: Altere a função para repetir a frase 5 vezes.
+---------------
+Atividade 2 – Tabuada do 3
+Objetivo: Mostrar a tabuada de um número fixo.
+
+Desafio: Transforme a tabuada em uma função que recebe o número base como parâmetro.
+---------------
+Atividade 3 – Contagem regressiva
+Objetivo: Mostrar uma contagem regressiva até o zero.
+
+Desafio: Troque o valor inicial de 5 para outro número.
+---------------
+Atividade 4 – Mostrar números pares de 0 a 10
+Objetivo: Trabalhar com lógica condicional dentro do laço.
+
+Desafio: Mude para mostrar apenas os ímpares.
+---------------
+Atividade 5 – Somar números de 1 a 5
+Objetivo: Acumular valor em uma variável.
+
+Desafio: Mude a soma de 1 a 10.

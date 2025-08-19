@@ -1,0 +1,69 @@
+✅ Atividade 1: Criando uma Biografia Curta
+Objetivo:
+Fazer o aluno estruturar uma página com diferentes tipos de conteúdo textual.
+
+Instruções:
+Crie um arquivo chamado biografia.html com:
+
+Um título da página no <title>.
+
+Um título principal com seu nome completo usando <h1>.
+
+Um subtítulo com o tema "Sobre mim" usando <h2>.
+
+Dois parágrafos (<p>) contando um pouco sobre você (ex: hobbies, o que gosta de fazer, etc).
+
+✅ Atividade 2: Criando uma Página de Contato
+Objetivo:
+Trabalhar com links, informações de contato e quebra de linha.
+
+Instruções:
+Crie um arquivo chamado contato.html com:
+
+Um título da página "Contato".
+
+Um texto com seu nome.
+
+Seu e-mail (coloque em um link clicável usando a tag <a> com mailto:).
+
+Seu telefone.
+
+Use a tag <br> para colocar cada informação de contato em uma linha diferente.
+
+✅ Atividade 3: Exibindo uma Citação Famosa
+Objetivo:
+Trabalhar com a tag de citação.
+
+Instruções:
+Crie uma página que exiba uma citação famosa que você goste.
+
+Exemplo de uso da tag <blockquote> ou <q>:
+
+<blockquote>
+    "O importante não é vencer todos os dias, mas lutar sempre." - Ayrton Senna
+</blockquote>
+Inclua também um <p> explicando por que você escolheu essa frase.
+
+✅ Atividade 4: Criando uma Página com Separadores de Sessão
+Objetivo:
+Ensinar o uso da tag <hr> para separar conteúdos.
+
+Instruções:
+Crie uma página chamada sessões.html com:
+
+Um título da página.
+
+Dois blocos de conteúdo com títulos (<h2>), separados por uma linha horizontal (<hr>).
+
+Em cada bloco, escreva 2 ou 3 frases com <p>.
+
+✅ Atividade 5: Trabalhando com Listas
+Objetivo:
+Apresentar o uso de listas ordenadas (<ol>) ou não ordenadas (<ul>).
+
+Instruções:
+Crie uma página com o título "Minhas Comidas Favoritas".
+
+Coloque uma lista com pelo menos 5 comidas que você gosta.
+
+Escolha entre lista ordenada ou não ordenada.

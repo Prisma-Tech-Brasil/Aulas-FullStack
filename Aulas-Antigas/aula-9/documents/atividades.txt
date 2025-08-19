@@ -1,0 +1,44 @@
+✅ 5 Questões sobre Criação de Funções
+Questão 1 — Função simples
+Crie uma função chamada cumprimentar que imprime a mensagem:
+
+
+"Olá, seja bem-vindo!"
+
+Questão 2 — Função com parâmetro
+Crie uma função chamada mostrarNome que receba um nome como parâmetro e imprima:
+
+"Seu nome é: [nome]"
+
+
+Questão 3 — Função com retorno
+Crie uma função chamada dobrar que receba um número como parâmetro e retorne o dobro desse número.
+
+
+Questão 4 — Soma de dois números
+Crie uma função chamada somar que receba dois números como parâmetros e retorne a soma deles.
+
+
+Questão 5 — Função com variável
+Crie uma função chamada mensagemFinal que armazene a frase "Parabéns por concluir o exercício!" em uma variável e retorne essa frase.
+
+
+🧠 5 Questões sobre a biblioteca Math
+Questão 6 — Arredondar número
+Use o método Math.round() para arredondar o número 7.6.
+
+
+Questão 7 — Valor absoluto
+Utilize Math.abs() para transformar o número -15 em positivo.
+
+
+Questão 8 — Raiz quadrada
+Use Math.sqrt() para descobrir a raiz quadrada de 144.
+
+
+Questão 9 — Número aleatório
+Use Math.random() para gerar um número aleatório entre 0 e 1. Depois, multiplique o valor por 10.
+
+
+Questão 10 — Número maior
+Use Math.max() para descobrir o maior número entre: 3, 29, 7, 14.

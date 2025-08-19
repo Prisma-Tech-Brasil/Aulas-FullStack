@@ -1,0 +1,36 @@
+🎯 Quiz: Herança em Programação Orientada a Objetos
+
+Qual é o principal objetivo da herança em OOP?
+
+a) Reduzir o tamanho dos arquivos de código
+b) Compartilhar código comum entre diferentes classes
+c) Aumentar a segurança das variáveis
+d) Garantir que todo código seja assíncrono
+
+O que acontece quando uma classe herda de outra?
+
+a) Ela sobrescreve a classe pai completamente
+b) Ela copia todos os métodos da classe pai, mas não os atributos
+c) Ela passa a ter acesso aos métodos e propriedades da classe pai
+d) Ela deixa de poder criar métodos próprios
+
+Como declaramos herança em JavaScript moderno (ES6+)?
+
+a) class Filho < Pai
+b) class Filho implements Pai
+c) class Filho extends Pai
+d) class Filho inherits Pai
+
+Qual método usamos dentro da classe filha para chamar o construtor da classe pai?
+
+a) super()
+b) this()
+c) parent()
+d) constructor()
+
+O que é sobrescrita de método (method overriding)?
+
+a) Usar um método de outra classe sem alterá-lo
+b) Escrever dois métodos com o mesmo nome na mesma classe
+c) Redefinir um método da classe pai com comportamento diferente na classe filha
+d) Apagar o método da classe pai na classe filha

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Status da Casa</title>
+  </head>
+  <body>
+    <label for="caminhaoDeSorveteFora">O caminhão de sorvete está fora?</label>
+    <select id="caminhaoDeSorveteFora">
+      <option value="false">Não</option>
+      <option value="true">Sim</option>
+    </select>
+
+    <label for="estadoDaCasa">Estado da Casa:</label>
+    <select id="estadoDaCasa">
+      <option value="normal">Normal</option>
+      <option value="pegando fogo">Pegando Fogo</option>
+    </select>
+
+    <button onclick="verificarStatus()">Verificar Status</button>
+    <p id="mensagem"></p>
+
+    <script>
+      function verificarStatus() {
+        var caminhaoDeSorveteFora =
+          document.querySelector("#caminhaoDeSorveteFora").value === "true";
+        var estadoDaCasa = document.querySelector("#estadoDaCasa").value;
+        var mensagem = document.querySelector("#mensagem");
+
+        if (caminhaoDeSorveteFora || estadoDaCasa === "pegando fogo") {
+          mensagem.textContent = "Provavelmente é melhor ficar em casa então.";
+        } else {
+          mensagem.textContent = "Você deve sair de casa rapidamente.";
+        }
+      }
+    </script>
+  </body>
+</html>

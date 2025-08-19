@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verificação de Clima</title>
+</head>
+<body>
+  <label for="clima">Selecione o tipo de clima hoje: </label>
+  <select id="clima">
+    <option value="">--Faça uma escolha--</option>
+    <option value="ensolarado">Ensolarado</option>
+    <option value="chuvoso">Chuvoso</option>
+    <option value="nevando">Nevando</option>
+    <option value="nublado">Nublado</option>
+  </select>
+  
+  <label for="temperatura">Digite a temperatura em graus Celsius: </label>
+  <input type="number" id="temperatura" name="temperatura">
+
+  <p></p>
+
+  <script>
+    var select = document.querySelector("#clima");
+    var input = document.querySelector("#temperatura");
+    var para = document.querySelector("p");
+
+    select.addEventListener("change", setWeather);
+    input.addEventListener("input", setWeather);
+
+    function setWeather() {
+      var escolha = select.value;
+      var temperatura = parseFloat(input.value);
+
+      if (escolha === "ensolarado" && temperatura < 30) {
+        para.textContent =
+          "Está " +
+          temperatura +
+          " graus lá fora — agradável e ensolarado. Vamos à praia ou ao parque e tomar um sorvete.";
+      } else if (escolha === "ensolarado" && temperatura >= 30) {
+        para.textContent =
+          "Está " +
+          temperatura +
+          " graus lá fora — MUITO QUENTE! Se você quiser sair, certifique-se de passar protetor solar.";
+      } else {
+        para.textContent = "";
+      }
+    }
+  </script>
+</body>
+</html>

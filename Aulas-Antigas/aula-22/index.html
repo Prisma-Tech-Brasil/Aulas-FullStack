@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Formulário para contato de avisos">
+    <title>Contate-nos</title>
+  </head>
+  <body>
+    <h1>Contate-nos</h1>
+
+    <form id="contateNosForm">
+      <div>
+        <fieldset>
+          <label for="nome">Nome *</label>
+          <input
+            id="nome"
+            name="nome"
+            type="text"
+            minlength="3"
+            maxlength="15"
+            required
+          />
+        </fieldset>
+        <fieldset>
+          <label for="sobrenome">Sobrenome *</label>
+          <input
+            id="sobrenome"
+            name="sobrenome"
+            type="text"
+            minlength="3"
+            required
+          />
+        </fieldset>
+      </div>
+
+      <fieldset>
+        <label for="email">Email *</label>
+        <input type="email" name="email" id="email" required />
+      </fieldset>
+
+      <fieldset>
+        <legend>Sexo *</legend>
+        <input type="radio" name="sexo" id="masculino" value="masculino" />
+        <label for="masculino">Masculino</label>
+        <input type="radio" name="sexo" id="feminino" value="feminino" />
+        <label for="feminino">Feminino</label>
+      </fieldset>
+
+      <fieldset>
+        <label for="mensagem">Mensagem *</label>
+        <textarea name="mensagem" id="mensagem" required></textarea>
+      </fieldset>
+
+      <fieldset>
+        <input
+          type="checkbox"
+          name="consentimento"
+          id="consentimento"
+          required
+        />
+        <label for="consentimento"
+          >Eu consinto em receber o contato pelo time *</label
+        >
+      </fieldset>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>

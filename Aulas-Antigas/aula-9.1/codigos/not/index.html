@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verificação de Habilitação</title>
+</head>
+<body>
+  <label for="idade">Idade:</label>
+  <input type="number" id="idade" name="idade">
+  
+  <label for="possuiCNH">Possui CNH?</label>
+  <select id="possuiCNH">
+    <option value="false">Não</option>
+    <option value="true">Sim</option>
+  </select>
+
+  <button onclick="verificarHabilitacao()">Verificar Habilitação</button>
+  <p id="mensagem"></p>
+
+  <script>
+    function verificarHabilitacao() {
+      var idade = parseFloat(document.querySelector("#idade").value);
+      var possuiCNH = document.querySelector("#possuiCNH").value === "true";
+      var mensagem = document.querySelector("#mensagem");
+
+      if (!(idade >= 18 && possuiCNH)) {
+        mensagem.textContent = "Você não pode dirigir.";
+        console.log("Você não pode dirigir.");
+      } else {
+        mensagem.textContent = "Você pode dirigir.";
+        console.log("Você pode dirigir.");
+      }
+    }
+  </script>
+</body>
+</html>
