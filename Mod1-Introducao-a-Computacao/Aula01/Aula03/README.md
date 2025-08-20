@@ -1,0 +1,1 @@
+# Aula 3 - Linux, Bash e linhas de Comando | Visual Studio CODE e NPM | Inteligências Artificiais e o ChatGPT
