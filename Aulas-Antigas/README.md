@@ -3,16 +3,21 @@
 Pasta com os repositórios do antigo material de aula
 
 O repositório contém os seguintes modulos de conteudo:
-[Modulo 1 - Introducao a Computacao](#modulo-1)
-[Modulo 2](#modulo-2)
-[Modulo 3](#modulo-3)
-[Modulo 4](#modulo-4)
-[Modulo 5](#modulo-5)
-[Modulo 6](#modulo-6)
+
+[Modulo 1 - Introducao a Computacao](#modulo-1) 
+
+[Modulo 2 - Introducao ao Front-End](#modulo-2) 
+
+[Modulo 3 - Javascript](#modulo-3) 
+
+[Modulo 4](#modulo-4) 
+
+[Modulo 5](#modulo-5) 
+
+[Modulo 6](#modulo-6) 
 
 ## Modulo 1
 Aulas 0-16
-
 
 ### [Aula-0](aula-0)
 Introdução ao nosso curso de Desenvolvimento Fullstack
@@ -50,15 +55,6 @@ Módulo 1 - Aula 15 - Funções assíncronas e importação de módulos
 Módulo 1 - Aula 16 - Entendendo a DOM
 ## Modulo 2
 Aulas 17-28
-## Modulo 3
-Aulas 29-40
-## Modulo 4
-Aulas ?
-## Modulo 5
-Aulas 54-62
-## Modulo 6
-Aulas 63+
-
 
 ### [Aula-17](aula-17)
 Módulo 2 - Aula 1 - Fundamentos do HTML na Web
@@ -86,6 +82,10 @@ Módulo 1 - Aula 15 - Manipulação de DOM
 Módulo 2 - Aula 9 - Criando portfólio
 ### [Aula-28](aula-28)
 Módulo 2 - Aula 10 - Portfólio Mobile
+
+## Modulo 3
+Aulas 29-40
+
 ### [Aula-29](aula-29)
 Módulo 3 - Aula 1 - JavaScript no Backend
 ### [Aula-30](aula-30)
@@ -118,6 +118,10 @@ Módulo 3 - Aula 10 - Introdução a banco de dados
 Módulo 3 - Aula 11 - Prisma ORM e SQLite
 ### [Aula-40](aula-40)
 Módulo 3 - Aula 12 - Persistencia de Dados
+
+## Modulo 4
+Aulas ?
+
 ### [Aula-41](aula-41)
 
 ### [Aula-42](aula-42)
@@ -132,6 +136,10 @@ Módulo 4 - Aula 11 - Animações com CSS
 Módulo 4 - Aula 12 - Manipulação de DOM
 ### [Aula-53](aula-53)
 Módulo 4 - Aula 13
+
+## Modulo 5
+Aulas 54-62
+
 ### [Aula-54](aula-54)
 Módulo 5 - Aula 1 - Introdução ao JQuery
 ### [Aula-55](aula-55)
@@ -152,6 +160,10 @@ Errado
 Módulo 5 - Aula 8 - Dados Dinâmicos
 ### [Aula-62](aula-62)
 Módulo 5 - Aula 9 - Design Responsivo com React
+
+## Modulo 6
+Aulas 63+
+
 ### [Aula-63](aula-63)
 Módulo 6 - Introdução ao typescript
 ### [Aula-64](aula-64)
