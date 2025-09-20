@@ -39,6 +39,8 @@ Crie uma `<div>` (o contêiner) e, dentro dela, outra `<div>` (o item). Seu obje
 
 **Dica:** Você vai precisar de uma combinação das propriedades `justify-content` e `align-items` no contêiner.
 
+![Exemplo Exercicio 1](exemplo1.png)
+
 ### 2. Barra de navegação responsiva
 Crie uma barra de navegação simples usando uma `<nav>` (o contêiner) com uma lista `<ul>` (o contêiner flex) e vários `<li>` (os itens) com links. O objetivo é que os itens se distribuam uniformemente pelo espaço disponível.
 

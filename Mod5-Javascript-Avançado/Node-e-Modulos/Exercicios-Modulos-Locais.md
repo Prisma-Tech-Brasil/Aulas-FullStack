@@ -1,5 +1,3 @@
-Ótimo! Aqui estão 5 exercícios para você praticar a criação de módulos locais em JavaScript. A ideia é que cada exercício ajude a consolidar um conceito diferente.
-
 ### Exercício 1: Calculadora
 
 1.  Crie um projeto e dois arquivos: `calculadora.js` e `app.js`.
