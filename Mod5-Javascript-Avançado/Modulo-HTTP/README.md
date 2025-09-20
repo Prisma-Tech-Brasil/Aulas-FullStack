@@ -1,4 +1,4 @@
-Olá\! Entendido. Vou refazer o resumo, focando apenas no módulo `http`, que é a base para a maioria dos servidores web em Node.js.
+# Modulo HTTP
 
 -----
 
