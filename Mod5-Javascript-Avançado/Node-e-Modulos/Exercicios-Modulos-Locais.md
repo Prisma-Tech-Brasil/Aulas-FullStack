@@ -9,6 +9,7 @@
       * Chame as funções de soma, subtração, multiplicação e divisão com diferentes números.
       * Imprima o resultado de cada operação no console.
 
+---
 ### Exercício 2: Gerador de Mensagens de Boas-vindas
 
 * **Objetivo**: Criar um módulo que gera saudações personalizadas.
@@ -20,6 +21,7 @@
     5.  Crie um arquivo `app.js`, importe o módulo `saudacao.js` e use as funções para gerar saudações para diferentes nomes. Imprima os resultados.
 
 
+---
 
 
 
@@ -35,3 +37,27 @@
         * `calculaCircunferencia(raio)`: Calcula a circunferência de um círculo.
     3.  Exporte o módulo.
     4.  Crie um arquivo `app.js`, importe o módulo e use as funções para calcular a área e o perímetro de um retângulo de `10x5` e a área e circunferência de um círculo com raio `7`.
+---
+
+### Exercício 4: Manipulador de Strings
+
+* **Objetivo**: Criar um módulo para manipular textos, fornecendo funções úteis para operações com strings.
+* **Instruções**:
+    1.  Crie um arquivo chamado `manipulador.js`.
+    2.  Implemente as seguintes funções:
+        * `inverterString(texto)`: Recebe uma string e a retorna invertida. Por exemplo, "javascript" se torna "tpircsavaj".
+        * `contarCaracteres(texto)`: Recebe uma string e retorna o número de caracteres que ela contém.
+    3.  Exporte ambas as funções usando `module.exports`.
+    4.  Crie um arquivo `app.js`, importe o módulo `manipulador.js` e use as funções para manipular strings de sua escolha. Imprima os resultados no console para verificar a saída.
+
+---
+### Exercício 5: Conversor de Unidades
+
+* **Objetivo**: Desenvolver um módulo para converter diferentes unidades de medida.
+* **Instruções**:
+    1.  Crie um arquivo chamado `conversor.js`.
+    2.  Implemente as seguintes funções:
+        * `celsiusParaFahrenheit(celsius)`: Converte uma temperatura de Celsius para Fahrenheit. A fórmula é `(celsius * 9/5) + 32`.
+        * `quilogramasParaLibras(quilogramas)`: Converte uma massa de quilogramas para libras. A fórmula é `quilogramas * 2.20462`.
+    3.  Exporte as duas funções.
+    4.  Crie um arquivo `app.js`, importe o módulo `conversor.js` e use as funções para converter temperaturas e massas. Imprima os resultados no console.
