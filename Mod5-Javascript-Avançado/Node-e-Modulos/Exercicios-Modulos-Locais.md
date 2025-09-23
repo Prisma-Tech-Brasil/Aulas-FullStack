@@ -35,19 +35,3 @@
         * `calculaCircunferencia(raio)`: Calcula a circunferência de um círculo.
     3.  Exporte o módulo.
     4.  Crie um arquivo `app.js`, importe o módulo e use as funções para calcular a área e o perímetro de um retângulo de `10x5` e a área e circunferência de um círculo com raio `7`.
-
-
-
-### Exercício 4: Módulo de Validação
-
-* **Objetivo**: Criar um módulo que contenha funções para validar dados.
-* **Instruções**:
-    1.  Crie um arquivo chamado `validador.js`.
-    2.  Implemente as seguintes funções de validação:
-        * `verificaEmail(email)`: Retorna `true` se a string for um e-mail válido (use uma expressão regular simples ou uma verificação básica com `@`).
-        * `verificaNumero(valor)`: Retorna `true` se o valor for um número.
-        * `verificaNome(valor)`: Retorna `true` se o valor for uma string.
-        * `verificaSenha(senha)`: Retorna `true` se o a senha possuir pelo menos 8 digitos e incluir pelo menos 1 letra e 1 numero
-    3.  Exporte o módulo.
-    4.  Crie um arquivo `app.js` e importe o `validador.js`.
-    5.  Teste as funções com diferentes valores (ex: `"test@test.com"`, `123`, `"olá"`, `null`) e imprima os resultados.
