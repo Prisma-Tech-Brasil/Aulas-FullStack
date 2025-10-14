@@ -142,4 +142,3 @@ Permitem dividir dados em seções usando `<thead>`, `<tbody>` e `<tfoot>`.
 </body>
 </html>
 ```
-

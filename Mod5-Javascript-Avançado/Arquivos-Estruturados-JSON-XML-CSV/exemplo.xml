@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Produtos>
+    <Produto>
+        <ID>101</ID>
+        <Nome_do_Produto>Notebook Gamer X</Nome_do_Produto>
+        <Preco_BRL>5999.50</Preco_BRL>
+        <Estoque>15</Estoque>
+        <Disponivel>Sim</Disponivel>
+    </Produto>
+    <Produto>
+        <ID>102</ID>
+        <Nome_do_Produto>Mouse Sem Fio Z</Nome_do_Produto>
+        <Preco_BRL>89.90</Preco_BRL>
+        <Estoque>150</Estoque>
+        <Disponivel>Sim</Disponivel>
+    </Produto>
+    <Produto>
+        <ID>103</ID>
+        <Nome_do_Produto>Teclado Mecânico K</Nome_do_Produto>
+        <Preco_BRL>299.00</Preco_BRL>
+        <Estoque>50</Estoque>
+        <Disponivel>Sim</Disponivel>
+    </Produto>
+    <Produto>
+        <ID>104</ID>
+        <Nome_do_Produto>Monitor Ultra Wide</Nome_do_Produto>
+        <Preco_BRL>1800.75</Preco_BRL>
+        <Estoque>5</Estoque>
+        <Disponivel>Não</Disponivel>
+    </Produto>
+</Produtos>

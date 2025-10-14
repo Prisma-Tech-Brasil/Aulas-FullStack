@@ -1,0 +1,30 @@
+[
+  {
+    "ID": 101,
+    "Nome do Produto": "Notebook Gamer X",
+    "Preço (BRL)": 5999.50,
+    "Estoque": 15,
+    "Disponível": true
+  },
+  {
+    "ID": 102,
+    "Nome do Produto": "Mouse Sem Fio Z",
+    "Preço (BRL)": 89.90,
+    "Estoque": 150,
+    "Disponível": true
+  },
+  {
+    "ID": 103,
+    "Nome do Produto": "Teclado Mecânico K",
+    "Preço (BRL)": 299.00,
+    "Estoque": 50,
+    "Disponível": true
+  },
+  {
+    "ID": 104,
+    "Nome do Produto": "Monitor Ultra Wide",
+    "Preço (BRL)": 1800.75,
+    "Estoque": 5,
+    "Disponível": false
+  }
+]
