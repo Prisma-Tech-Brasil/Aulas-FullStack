@@ -1,0 +1,39 @@
+body{
+    background-image: url("pattern.png");
+    animation: mover-fundo 10s linear infinite;
+}
+
+.objeto{
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  animation: girar-objeto 10s linear infinite;
+  /* animation: fade-in-out 1s linear infinite; */
+}
+
+@keyframes girar-objeto {
+    0% {
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes mover-fundo {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0; /* Move o fundo horizontalmente */
+  }
+}
+
+@keyframes fade-in-out{
+  0%{
+    opacity: 0%;
+  }
+  50%{
+    opacity: 100%;
+  }
+  100%{
+    opacity: 0%;
+  }
+}
