@@ -1,0 +1,270 @@
+/* --------------------
+   1. ESTILOS GERAIS/RESET
+   -------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Garante que padding e border não aumentem o tamanho final do elemento */
+}
+
+body {
+    font-family: 'Poppins', sans-serif; /* Fonte que linkamos no HTML */
+    line-height: 1.6;
+    background-color: #f4f4f9; /* Fundo claro */
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #222;
+    margin-bottom: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff; /* Cor primária para links */
+    transition: color 0.3s ease; /* Transição suave para hover */
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+ul {
+    list-style: none;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* --------------------
+   2. CABEÇALHO E NAVEGAÇÃO
+   -------------------- */
+.header {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky; /* Mantém a nav fixa ao rolar */
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 20px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    color: #333;
+    font-weight: 600;
+}
+
+.nav-links a:hover {
+    color: #007bff;
+}
+
+/* --------------------
+   3. SEÇÃO INÍCIO/HERO
+   -------------------- */
+.hero {
+    background-color: #e9ecef;
+    padding: 100px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh; /* Ocupa a maior parte da tela */
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Transforma a imagem em um círculo */
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 4px solid #007bff;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 25px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+    color: white; /* Mantém a cor do texto branca no hover */
+}
+
+
+/* --------------------
+   4. SEÇÃO SOBRE E HABILIDADES
+   -------------------- */
+.about-section {
+    background-color: #ffffff;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap; /* Permite quebrar em várias linhas */
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.skills-list li {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+/* --------------------
+   5. SEÇÃO PROJETOS
+   -------------------- */
+.projects-section {
+    background-color: #f4f4f9;
+}
+
+.projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.project-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Largura padrão para desktop */
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px); /* Efeito sutil de elevação */
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.project-links a {
+    margin: 0 10px;
+    font-weight: 600;
+}
+
+/* --------------------
+   6. RODAPÉ/CONTATO
+   -------------------- */
+.contact-footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+}
+
+.contact-footer h2 {
+    color: white;
+}
+
+.contact-links {
+    margin: 20px 0;
+}
+
+.contact-links a {
+    color: #ffc107; /* Cor de destaque (amarelo) */
+    margin: 0 15px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.contact-links a:hover {
+    color: #e0a800;
+}
+
+.copyright {
+    margin-top: 20px;
+    font-size: 0.8rem;
+}
+
+/* --------------------
+   7. RESPONSIVIDADE (MEDIA QUERIES)
+   -------------------- */
+
+/* Para telas menores que 768px (tablets e celulares) */
+@media (max-width: 768px) {
+    
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px 20px;
+    }
+
+    .nav-links {
+        margin-top: 10px;
+        gap: 15px;
+    }
+
+    .hero h2 {
+        font-size: 2rem;
+    }
+    
+    .projects-grid {
+        /* Garante que os projetos fiquem um abaixo do outro em telas menores */
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .project-card {
+        width: 100%; /* Ocupa a largura total */
+        max-width: 350px; /* Limita a largura para não ficar muito largo em telas grandes/móveis */
+    }
+
+    .skills-list {
+        flex-direction: column;
+    }
+    
+    .skills-list li {
+        width: 80%; /* Ocupa mais espaço na tela do celular */
+        margin: 0 auto;
+    }
+}
