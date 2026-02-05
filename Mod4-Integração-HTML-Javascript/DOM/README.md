@@ -75,7 +75,7 @@ Os eventos permitem que o JavaScript reaja a interações do usuário (cliques, 
 
 ### **Exemplo Prático (Exemplo para a aula)**
 
-Você pode mostrar este exemplo simples para demonstrar a aplicação de vários conceitos:
+Exemplo simples para demonstrar a aplicação de vários conceitos:
 
 ```html
 <!DOCTYPE html>
@@ -114,13 +114,3 @@ Você pode mostrar este exemplo simples para demonstrar a aplicação de vários
 </body>
 </html>
 ```
-
------
-
-### **Dicas para a Aula**
-
-  * Comece com a analogia da árvore para que a visualização da DOM faça sentido.
-  * Mostre o console do navegador (`F12`) e use o `console.log()` para mostrar os objetos de elementos que estão sendo selecionados.
-  * Use exemplos interativos, como o acima, para que os alunos possam ver as mudanças em tempo real.
-  * Enfatize a diferença entre `querySelector` (primeiro elemento) e `querySelectorAll` (todos os elementos).
-  * Mencione a importância de esperar o carregamento da página (por exemplo, usando o evento `DOMContentLoaded`) para garantir que todos os elementos HTML estejam disponíveis antes de o JavaScript tentar acessá-los.
