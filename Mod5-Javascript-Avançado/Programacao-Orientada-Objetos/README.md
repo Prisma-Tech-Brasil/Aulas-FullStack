@@ -28,7 +28,6 @@ const timeB = new Time("Vasco");
 
 timeA.vencer(); 
 console.log(timeA.pontos); // 3
-
 ```
 
 ---
@@ -61,7 +60,6 @@ const minhaConta = new Conta();
 minhaConta.depositar(100);
 // console.log(minhaConta.#saldo); // Erro! Protegido.
 console.log(minhaConta.exibirSaldo); // R$ 100
-
 ```
 
 ### C. Herança
@@ -83,7 +81,6 @@ class Admin extends Usuario {
 
 const chefe = new Admin("Carlos");
 chefe.logar(); // Funciona porque ele herdou!
-
 ```
 
 ### D. Polimorfismo
@@ -102,7 +99,6 @@ class Goleiro extends Atleta {
 class Atacante extends Atleta {
   treinar() { console.log("Treinando finalização ao gol!"); } // Comportamento específico
 }
-
 ```
 
 ---
@@ -113,12 +109,9 @@ class Atacante extends Atleta {
 2. **Passagem por Referência**: Quando você passa um objeto `Time` para dentro da classe `Partida`, você não está passando apenas o nome dele. Você está passando o "corpo" todo do objeto. Se a `Partida` mudar algo no time, essa mudança vale para o campeonato inteiro!
 3. **Arrays de Objetos**: Use métodos como `.sort()` e `.forEach()` para manipular sua lista de times. Eles funcionam perfeitamente com objetos.
 
----
-
 ### Exemplo de Ordenação de Tabela:
 
 ```javascript
 // Ordenando por quem tem mais pontos (descendente)
 meusTimes.sort((a, b) => b.pontos - a.pontos);
-
 ```
