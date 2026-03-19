@@ -52,3 +52,35 @@ O desafio final que une os dois conceitos em um cenário de gestão de funcioná
 3. **Classe `Desenvolvedor` (Herda de `Funcionario`):**
 * Método `calcularPagamento()`: Deve retornar apenas o salário base (sem bônus).
 
+## Exercício 4: Sistema de Personagens (Herança e Polimorfismo)
+Neste exercício, os alunos devem criar uma base comum para diferentes tipos de personagens de um jogo.
+
+Tarefa: Crie uma estrutura de classes para um RPG.
+
+Requisitos:
+
+1. Classe base Personagem com propriedades nome e nivel, e um método `atacar()` que exibe uma mensagem genérica no console.
+
+2. Classe Guerreiro que estende Personagem e sobrescreve o método `atacar()` para dizer: "O Guerreiro [nome] ataca com a espada!".
+
+3. Classe Mago que estende Personagem e sobrescreve o método `atacar()` para dizer: "O Mago [nome] lança uma bola de fogo!".
+
+Objetivo: Entender como classes filhas podem ter comportamentos diferentes para o mesmo método da classe pai.
+
+
+## Exercício 5: Carrinho de Compras (Encapsulamento Avançado)
+O foco aqui é garantir que a lista de itens de um carrinho não possa ser "limpa" ou alterada sem passar pelos métodos corretos.
+
+**Tarefa**: Desenvolva um simulador de Carrinho.
+
+Requisitos:
+
+1. Atributo privado `#itens` (deve ser um array vazio [] no início).
+
+2. Método `adicionarProduto(nome, preco)` que adiciona um objeto ao array `#itens`.
+
+3. Método `exibirTotal()` que percorre o array privado e soma os preços de todos os produtos.
+
+4. Um Getter chamado `quantidade` que retorna apenas o tamanho do array (quantos produtos existem no carrinho).
+
+Desafio: Tente forçar carrinho.#itens = [] fora da classe para ver como o encapsulamento protege a integridade da lista.
