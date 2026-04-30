@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "titulo": "The Legend of Zelda",
+    "preco": 299.90,
+    "plataformas": ["Nintendo Switch"],
+    "emEstoque": true
+  },
+  {
+    "id": 2,
+    "titulo": "Minecraft",
+    "preco": 99.00,
+    "plataformas": ["PC", "Xbox", "PlayStation"],
+    "emEstoque": true
+  },
+  {
+    "id": 3,
+    "titulo": "Elden Ring",
+    "preco": 249.90,
+    "plataformas": ["PC", "PlayStation", "Xbox"],
+    "emEstoque": false
+  }
+]

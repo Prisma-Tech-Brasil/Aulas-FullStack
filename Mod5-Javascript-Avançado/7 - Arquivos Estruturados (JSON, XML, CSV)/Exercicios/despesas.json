@@ -1,0 +1,10 @@
+{
+  "mes": "Abril",
+  "ano": 2026,
+  "transacoes": [
+    { "descricao": "Supermercado", "valor": 350.00, "categoria": "Alimentação" },
+    { "descricao": "Internet", "valor": 120.00, "categoria": "Contas" },
+    { "descricao": "Combustível", "valor": 200.00, "categoria": "Transporte" },
+    { "descricao": "Almoço no Restaurante", "valor": 75.00, "categoria": "Alimentação" }
+  ]
+}

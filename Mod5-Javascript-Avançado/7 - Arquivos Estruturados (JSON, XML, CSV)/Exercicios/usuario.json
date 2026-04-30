@@ -1,0 +1,12 @@
+{
+  "idUsuario": 8842,
+  "username": "@dev_aprendiz",
+  "nome": "Danilo Lima",
+  "temasFavoritos": ["JavaScript", "Python", "Inteligência Artificial"],
+  "configuracoes": {
+    "modoNoturno": true,
+    "notificacoesEmail": false,
+    "idioma": "pt-BR"
+  },
+  "pontos": 450
+}
